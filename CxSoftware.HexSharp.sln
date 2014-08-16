@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CxSoftware.HexSharp", "CxSoftware.HexSharp\CxSoftware.HexSharp.csproj", "{9FE3734B-5695-43DD-9256-669853D9EB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CxSoftware.HexSharp.Tests", "CxSoftware.HexSharp.Tests\CxSoftware.HexSharp.Tests.csproj", "{C21114F0-0B7E-47DE-BD8A-2C93C11F5C63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FE3734B-5695-43DD-9256-669853D9EB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE3734B-5695-43DD-9256-669853D9EB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE3734B-5695-43DD-9256-669853D9EB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE3734B-5695-43DD-9256-669853D9EB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21114F0-0B7E-47DE-BD8A-2C93C11F5C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21114F0-0B7E-47DE-BD8A-2C93C11F5C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21114F0-0B7E-47DE-BD8A-2C93C11F5C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21114F0-0B7E-47DE-BD8A-2C93C11F5C63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CxSoftware.HexSharp\CxSoftware.HexSharp.csproj
+	EndGlobalSection
+EndGlobal
