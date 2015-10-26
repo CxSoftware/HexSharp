@@ -12,8 +12,8 @@ namespace CxSoftware.HexSharp
 			var sb = new StringBuilder (bytes.Length * 2);
 			foreach (var b in bytes)
 			{
-				sb.Append (hexChars [b / 0x10]);
-				sb.Append (hexChars [b % 0x10]);
+				sb.Append (hexChars [b >> 4]);
+				sb.Append (hexChars [b & 0xf]);
 			}
 
 			return sb.ToString ();
